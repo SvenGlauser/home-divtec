@@ -9,9 +9,9 @@ body {
     display: none;
 }
 header {
-    height: 70px;
-    width: 100%;
     position: fixed;
+    top: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
@@ -35,6 +35,7 @@ header div.photo-profil {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    background-color: white;
     border: 1px solid #dddddd;
 }
 header div.menu-icon {
@@ -65,10 +66,7 @@ header.scroll div.title span.title-page-description {
 header.scroll div.menu-icon {
     display: none;
 }
-main {
-    overflow: auto;
-    position: fixed;
-    width: 100%;
-    top: 70px;
-    height: calc(100vh - 70px);
+main p {
+    margin: 0;
+    height: 1000px;
 }
